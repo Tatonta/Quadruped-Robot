@@ -34,11 +34,11 @@ $$ \dot x_{i,2}= -x_{i,2}+ (1+\mu) y_{i,2} - s_2 y_{i,1}+i2$$
 Where $y_i= \frac{1}{2} (|x_i+1|-|x_i-1|)$.
 Each leg is modelled by a neuron, as shown in the figure below
 <p align="center">
-<img src="https://user-images.githubusercontent.com/117543360/200421595-07de8560-98ba-4da4-8b68-79ae661ccd7d.png" width="400"/>
+<img src="https://user-images.githubusercontent.com/117543360/200421595-07de8560-98ba-4da4-8b68-79ae661ccd7d.png"/>
 </p>
 The $\Phi$ symbols are a tunable parameter which represent the phase shift between the signals. Different phase shifts lead to different laplacian which lead to a different gait.
 In this work is also implemented a bio-inspired steering, by increasing the nonlinearity saturation.
 To see the robot in action, click on the youtube video below
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=Wvfgmt3EIlQ"><img src="https://img.youtube.com/vi/Wvfgmt3EIlQ/hqdefault.jpg" alt="IMAGE ALT TEXT"></a>
+  <a href="https://www.youtube.com/watch?v=Wvfgmt3EIlQ"><img src="https://img.youtube.com/vi/Wvfgmt3EIlQ/hqdefault.jpg" width=250></a>
 </div>
