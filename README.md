@@ -23,6 +23,7 @@ The whole structure is presented in the figure below:
 <img src="https://user-images.githubusercontent.com/117543360/200412528-17ad7bf9-a247-498b-a1dd-aa79b1a1b95a.JPG" width="500"/>
 </p>
 ## Quadruped Locomotion and Steering on CPG based Architecture
+
 Locomotion is carried out by a series of rhythmic mechanical sequences: stance phase, to hold the weight, and swing to propel the weight forward, and through a proper rhythmic pattern we allow movement. The signals which generate this pattern are from a neural complex located in the Central Nervous System, the Central Pattern Generator (CPG).
 We can recreate this rhythmic pattern of the CPG by using Cellular Neural Networks (CNN). The phenomenon is described by nonlinear partial differential equations, called Reaction-Diffusion equation. 
 The i-th cell is described by this second order system:
